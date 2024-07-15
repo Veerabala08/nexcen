@@ -1,0 +1,43 @@
+@import "../App.scss";
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+        width: 155px;
+        height: 24px;
+        align-self: center;
+    }
+
+    .menu {
+        width: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        font-size: $Textsize;
+        font-weight: 600;
+        font-family: $FontFamily;
+
+        p {
+            &:hover {
+                text-shadow: 0 0 10px #3cff00;
+            }
+        }
+    }
+
+
+    .buttonGroup {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+// Media query to hide .menu on smaller screens
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+@import "../App.scss";
+
+.container{
+    // width: 87%;
+    margin-inline:auto;
+    display: flex;
+    padding: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(245, 247, 250);
+
+    h1{
+        color: $primaryHeadingcolor;
+        font-family: $FontFamily;
+        font-size: 50px;
+    }
+    p{
+        font-family: $FontFamily;
+        font-size: $Textsize;
+        margin-top: -15px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
