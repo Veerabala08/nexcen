@@ -26,3 +26,31 @@
         height: auto;
     }
 }
+
+.container2 {
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textcontent {
+    text-align: center;
+
+    h1{
+        font-family: $FontFamily;
+        font-size: $Headingsize;
+    }
+    p{
+        font-family: $FontFamily;
+        font-size: $Textsize;
+    }
+}
+.clientLogo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+

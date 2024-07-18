@@ -20,9 +20,15 @@
         font-family: $FontFamily;
 
         p {
-            &:hover {
+            text-decoration:none;
+                        &:hover {
                 text-shadow: 0 0 10px #3cff00;
+                text-decoration: none;
             }
+        }
+        a {
+            text-decoration: none;
+            color: $primaryHeadingcolor;
         }
     }
 
