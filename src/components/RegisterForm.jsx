@@ -9,7 +9,7 @@ function RegisterForm() {
   return (
     <div className="container" id="registerForm">
       <form onSubmit={handleSubmit(onSubmit)}>
-        <label>Fill the Form</label>
+        <label className='title'>Fill the Form</label>
         <input {...register("firstName", { required: 'max is length is 8 character', maxLength: 8 })} placeholder="firstname" />
         {errors.firstName && <p className="error">{errors.firstName.message}</p>}
 

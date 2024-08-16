@@ -7,6 +7,7 @@ const useTourStore = create((set) => ({
   stepIndex: 0,
   steps: [],
   tourActive: false,
+  
   setRun: (run) => set({ run }), 
   setStepIndex: (stepIndex) => set({ stepIndex }),
   setSteps: (steps) => set({ steps }),
